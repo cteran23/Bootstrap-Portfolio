@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfolio | Christian Teran</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
+    
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Christian Teran</h1>
+            <p class="lead">A Brief Glimpse Into My World</p>
+        </div>
+    </div>
 
     <header id="masthead">
         <div class="container">
-            <a href="index.html" id="logo">Christian Teran</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link" href="index.html">About</a>
+                <a class="flex-sm-fill text-sm-center nav-link active" href="portfolio.html">Portfolio</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="contact.html">Contact</a>
+            </nav>   
         </div>
     </header>
 
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Portfolio</h1>
+    <section>
 
-            <div class="work">
-                <img src="assets/images/film.jpg" alt="film">
+        
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="assets/images/learncode.jpg" class="img-fluid" alt="Christian Teran">
+                <h3>Learn Code</h3>
+            </div>
+            <div class="col-sm-6">
+                <img src="assets/images/explore.jpg" class="img-fluid" alt="Christian Teran">
+                <h3>Explore</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="assets/images/film.jpg" class="img-fluid" alt="Christian Teran">
                 <h3>Film</h3>
             </div>
-
-            <div class="work">
-                <img src="assets/images/fitness.jpg" alt="fitness">
-                <h3>Fitness</h3> 
+            <div class="col-sm-6">
+                <img src="assets/images/fitness.jpg" class="img-fluid" alt="Christian Teran">
+                <h3>Fitness</h3>
             </div>
+        </div>
 
-            <div class="work">
-                <img src="assets/images/learncode.jpg" alt="fitness">
-                <h3>Learn Code</h3> 
-            </div>
-
-            <div class="work">
-                <img src="assets/images/explore.jpg" alt="explore">
-                <h3>Explore</h3> 
-            </div>
-
-            <div class="work">
-                <img src="assets/images/localcuisine.jpg" alt="localcuisine"> 
-                <h3>Local Cuisine</h3>
-            </div>
-    
-        </section>
+    </section>
 
         <footer>
             <div class="container">
@@ -58,6 +61,10 @@
             </div>
         </footer>      
     </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 </html>
